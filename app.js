@@ -8,7 +8,7 @@ const app = express()
 
 router.get('/', (req,res) => {
     res.send('Get Call');
-
+console.log("get call for token");
 })
 
 router.post('/login', (req,res) => {
